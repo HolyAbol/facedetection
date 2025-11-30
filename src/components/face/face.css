@@ -1,0 +1,5 @@
+.bounding-box {
+  /* styles above already set inline; this is optional for hover/focus */
+  transition: box-shadow 0.15s ease;
+}
+
