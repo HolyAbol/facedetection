@@ -14,6 +14,13 @@ function App() {
   const [imgUrl,setImgUrl]=useState('https://www.vice.com/wp-content/uploads/sites/2/2022/09/1662049678863-screen-shot-2022-09-01-at-122736-pm.png?w=1024')
   const [route,setRoute]=useState('register')
   const [signin,setSignin]=useState(false)
+  const[box,useBox]=useState({
+    top_row:0,
+    left_col:0,
+    bottom_row:0,
+    right_col:0
+  }
+  )
   const [user,setUser]=useState({
     id:'',
     name:"",
