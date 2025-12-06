@@ -17,7 +17,7 @@ const Register=({onRouteChange,loadUsers})=>{
     const onSubmitRegister=()=>{
 
         console.log({email,pass,name})
-        fetch('http://localhost:3001/register',
+        fetch('https://face-detection.liara.run/register',
           {
           method:'post',
           headers:{'Content-Type':'application/json'},

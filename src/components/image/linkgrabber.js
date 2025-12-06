@@ -2,7 +2,7 @@ import React from "react";
 import "./img.css"
 const Linkgrabber =({onInputChange,onClickChange,user,updateUsers})=>{
      const onSubmitImg=()=>{
-        fetch('http://localhost:3001/image',
+        fetch('https://face-detection.liara.run/image',
           {
           method:'put',
           headers:{'Content-Type':'application/json'},

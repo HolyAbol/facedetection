@@ -42,7 +42,7 @@ const handleFaceDetection = (data) => {
 
 const apicall=(imgUrl)=>{
 if(imgUrl){
-    fetch('http://localhost:3001/imageurl', {
+    fetch('https://face-detection.liara.run/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
